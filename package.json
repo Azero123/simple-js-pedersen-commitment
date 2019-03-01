@@ -1,0 +1,29 @@
+{
+  "name": "simple-js-pedersen-commitment",
+  "version": "1.0.0",
+  "description": "easy and light weight pedersen commitment implementation",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azero123/simple-js-pedersen-commitment.git"
+  },
+  "keywords": [
+    "pedersen",
+    "commitment",
+    "bitcoin",
+    "blockchain",
+    "crypto"
+  ],
+  "author": "Azero123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azero123/simple-js-pedersen-commitment/issues"
+  },
+  "homepage": "https://github.com/Azero123/simple-js-pedersen-commitment#readme",
+  "dependencies": {
+    "big-integer": "^1.6.42"
+  }
+}
