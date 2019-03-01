@@ -1,5 +1,5 @@
 try {
-    const Pedersen = require('./.js')
+    const Pedersen = require('../src/main.js')
 
     const pederson = new Pedersen(
         '925f15d93a513b441a78826069b4580e3ee37fc5',
@@ -61,6 +61,7 @@ try {
     if (!pederson.verify(message, [testE], secret)) {
         throw 'end-to-end test failed'
     }
+    console.log('✅ pedersen tests passed')
 }
 catch (error) {
     console.error('⚠️ failed to test pedersen commitments ', error)

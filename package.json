@@ -4,7 +4,7 @@
   "description": "easy and light weight pedersen commitment implementation",
   "main": "src/main.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/main.js"
   },
   "repository": {
     "type": "git",
