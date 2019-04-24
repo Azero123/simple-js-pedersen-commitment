@@ -1,6 +1,6 @@
 {
   "name": "simple-js-pedersen-commitment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easy and light weight pedersen commitment implementation",
   "main": "src/main.js",
   "scripts": {
